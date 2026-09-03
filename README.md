@@ -1,5 +1,3 @@
-# Online-Store-Database-System
-MySQL normalized relational schema with 300+ customer records and optimized sales analytics queries.
 # 🛒 Online Store Database System
 
 A **MySQL-based Online Store Database System** designed to manage customer information, product details, and order transactions while performing sales and customer analysis using SQL.
