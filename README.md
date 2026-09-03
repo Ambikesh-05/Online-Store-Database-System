@@ -113,9 +113,3 @@ OnlineStore-Database/
 ## 🎯 Project Objective
 
 The main objective of this project is to gain practical experience in **relational database design, SQL query development, data analysis, and business reporting** using MySQL.
-
-## 👨‍💻 Author
-
-**Ambikesh Pandey**
-
-BCA Graduate | MCA Student | Data Science & Analytics Enthusiast
