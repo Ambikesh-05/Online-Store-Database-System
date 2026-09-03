@@ -92,24 +92,3 @@ The project performs SQL-based analysis to generate useful business insights, in
 * Product filtering by category
 
 Revenue is calculated using the relationship between **order quantity and product price**.
-
-## ▶️ How to Run
-
-1. Install **MySQL Server / MySQL Workbench**.
-2. Download or clone this repository.
-3. Open `Onlinestore_Project.sql` in MySQL Workbench.
-4. Execute the SQL script.
-5. The `OnlineStore` database, tables, records, and analysis queries will be created/executed.
-
-## 📂 Project Structure
-
-```text
-OnlineStore-Database/
-│
-├── Onlinestore_Project.sql
-└── README.md
-```
-
-## 🎯 Project Objective
-
-The main objective of this project is to gain practical experience in **relational database design, SQL query development, data analysis, and business reporting** using MySQL.
