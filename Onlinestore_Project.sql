@@ -195,3 +195,19 @@ JOIN products p ON o.product_id = p.product_id;
 SELECT product_name, category 
 FROM products 
 WHERE category IN ('Fashion', 'Accessories');
+
+
+--  Rank products within each category based on their price -
+-- Window Function
+
+SELECT product_name, category, price,
+DENSE_RANK() OVER (PARTITION BY category ORDER BY price DESC) AS price_rank_in_category
+FROM products;
+
+
+-- Calculate Running Total (Cumulative Revenue) for each order over time -
+
+SELECT o.order_id, o.order_date, (o.quantity * p.price) AS order_value, 
+SUM(o.quantity * p.price) OVER (ORDER BY o.order_date, o.order_id) AS running_total_revenue
+FROM orders o
+JOIN products p ON o.product_id = p.product_id;
