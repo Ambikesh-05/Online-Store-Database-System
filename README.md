@@ -107,6 +107,10 @@ Customers
 Products
 ```
 
+### 🖥️ Database Structure
+
+![Database Structure](Screenshot/Database_Structure_EER_Diagram.png)
+
 ---
 
 ## 📊 Dataset Overview
