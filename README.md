@@ -107,6 +107,10 @@ Customers
 Products
 ```
 
+### 🖥️ Database Structure
+
+![Database Structure](Screenshot/Database_Structure_EER_Diagram.png)
+
 ---
 
 ## 📊 Dataset Overview
@@ -215,6 +219,10 @@ JOIN products p
 ON o.product_id = p.product_id;
 ```
 
+### 📊 Customer & Product Analysis Result
+
+![Customer Product Analysis](Screenshot/Customer_Product_Analysis.png)
+
 ---
 
 ### 3. Total Number of Orders
@@ -265,6 +273,10 @@ GROUP BY city;
 
 This analysis shows the number of customers associated with each city.
 
+### 🌆 Customer Distribution Result
+
+![Customer Distribution by City](Screenshot/Customer_Distribution_by_City.png)
+
 ---
 
 ### 7. Total Store Revenue
@@ -283,6 +295,10 @@ ON o.product_id = p.product_id;
 **Total Revenue: ₹18,61,000**
 
 **Approximately: ₹18.61 lakh**
+
+### 💰 Revenue Analysis Result
+
+![Total Store Revenue](Screenshot/Total_Store_Revenue.png)
 
 ---
 
@@ -324,6 +340,10 @@ FROM products;
 
 This allows products to be ranked **separately within each category** according to their price.
 
+### 🏆 Product Ranking Result
+
+![Product Ranking using DENSE_RANK](Screenshot/Product_Ranking.png)
+
 ---
 
 ### 10. Running Total / Cumulative Revenue
@@ -352,6 +372,10 @@ ON o.product_id = p.product_id;
 * Multi-table JOIN
 
 The query calculates the revenue of each order and maintains a **running cumulative revenue total** according to order date and order ID.
+
+### 📈 Running Total Revenue Result
+
+![Running Total Revenue](Screenshot/Cumulative_Revenue.png)
 
 ---
 
